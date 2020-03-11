@@ -4,6 +4,7 @@ axios.get('https://cmgt.hr.nl:8000/api/projects/')
     // console.log(`GET list users`, projects);
     var text = "";
     var i;
+    //projects.map(project => {})
     for (i = 0; i < projects.length; i++) {
       text += "<h2> Project " + projects[i].title + "</h2>" + "<p>" + projects[i].tagline + "</p><br>";
     //   console.log(projects[i].title);
